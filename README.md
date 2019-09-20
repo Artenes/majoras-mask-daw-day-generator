@@ -1,10 +1,10 @@
 # The final day card title generator
 
-[![Generator in action](images/dawn.gif)](http://artenesbok.com/majoras-mask-daw-day-generator)
+[![Generator in action](images/dawn.gif)](https://artenesbok.com/majoras-mask-daw-day-generator)
 
 When things are tight, nothing better than reminding our friends that the time is running out. At work, at school or at a hackaton, send this every morning to set that mood right out of the bat.
 
-[Access it here.](http://artenesbok.com/majoras-mask-daw-day-generator)
+[Access it here.](https://artenesbok.com/majoras-mask-daw-day-generator)
 
 # Acknowledgements
 

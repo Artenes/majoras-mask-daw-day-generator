@@ -1,8 +1,17 @@
 * {
   margin: 0;
-  border: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  line-height: 30px;
+}
+
+body {
+  background: #000;
+  font-family: "ArialNarrow", Arial, sans-serif;
+  text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }

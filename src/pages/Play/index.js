@@ -31,10 +31,6 @@ export default function Play({ location, history }) {
 
       {isAnimating && (
       <>
-        <audio id="sound">
-          <source src="dawn.mp3" type="audio/mpeg"/>
-          <source src="dawn.ogg" type="audio/ogg"/>
-        </audio>
         <h2>Dawn of</h2>
         <h1>{params.get('title')}</h1>
         <h3 className={isShowingHours}>-{params.get('subtitle')}-</h3>

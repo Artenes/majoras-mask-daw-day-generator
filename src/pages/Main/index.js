@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import './style.css';
 
 export default function Main() {
@@ -7,14 +8,19 @@ export default function Main() {
   const [hours, setHours] = useState('24 hours remain');
   const [link, setLink] = useState('');
   const [url, setUrl] = useState('');
+  const [query, setQuery] = useState('');
 
   useEffect(() => {
     
     const title = encodeURI(day);
     const subtitle = encodeURI(hours);
     const target = encodeURI(link);
-    const base = `http://localhost:3333/play?title=${title}&subtitle=${subtitle}&target=${target}`;
-    setUrl(base);
+
+    const query = `?title=${title}&subtitle=${subtitle}&target=${target}`;
+    setQuery(query);
+
+    const base = `${process.env.PUBLIC_URL}/play`;
+    setUrl(`${base}${query}`);
 
   }, [day, hours, link]);
 
@@ -34,9 +40,9 @@ export default function Main() {
       <input id="url" type="text" placeholder="https://example.com" onChange={e => setLink(e.target.value)}/><br/>
 
       <label htmlFor="share">Link to share with your friends</label>
-      <p id="share">{url}</p>
+      <a id="share" href={url}>{url}</a>
 
-      <button type="button">Play</button>
+      <Link id="play" to={{ pathname: '/play', search: query }}>Play</Link>
 
     </div>
   );

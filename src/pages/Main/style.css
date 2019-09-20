@@ -55,9 +55,11 @@ label {
 #share {
   text-align: center;
   font-weight: bold;
+  color: #fff;
 }
 
-button {
+#play {
+  text-decoration: none;
   margin-top: 30px;
   border: 1px solid #fff;
   padding: 5px;
@@ -69,7 +71,7 @@ button {
   transition: background 0.2s;
 }
 
-button:hover {
+#play:hover {
   background: #fff;
   color: #000;
 }

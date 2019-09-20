@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7b4937f89e4951e1b1f87747a4dc71b7",
+    "revision": "2795a500808b94ac9a61356faa5f0748",
     "url": "/majoras-mask-daw-day-generator/index.html"
   },
   {
-    "revision": "147812a4b956fd0d6e1a",
+    "revision": "5c6b5b72a9fa722757e6",
     "url": "/majoras-mask-daw-day-generator/static/css/main.f9e99833.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/majoras-mask-daw-day-generator/static/js/2.68783f57.chunk.js"
   },
   {
-    "revision": "147812a4b956fd0d6e1a",
-    "url": "/majoras-mask-daw-day-generator/static/js/main.01d7cf13.chunk.js"
+    "revision": "5c6b5b72a9fa722757e6",
+    "url": "/majoras-mask-daw-day-generator/static/js/main.5ab2e780.chunk.js"
   },
   {
     "revision": "9bf91204b80ece20dca4",

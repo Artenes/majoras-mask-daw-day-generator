@@ -11,6 +11,5 @@ html, body, #root {
 body {
   background: #000;
   font-family: Arial, sans-serif;
-  text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased;
 }

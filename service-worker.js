@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/majoras-mask-daw-day-generator/precache-manifest.4dcc0ba0a8ad42e61a1ea2dfeb46066d.js"
+  "/majoras-mask-daw-day-generator/precache-manifest.97acb04dacd938c3fa84c0188b76137d.js"
 );
 
 self.addEventListener('message', (event) => {

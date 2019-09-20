@@ -4,14 +4,13 @@
   box-sizing: border-box;
 }
 
-html, body {
+html, body, #root {
   height: 100%;
-  line-height: 30px;
 }
 
 body {
   background: #000;
-  font-family: "ArialNarrow", Arial, sans-serif;
+  font-family: Arial, sans-serif;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased;
 }

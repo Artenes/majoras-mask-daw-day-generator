@@ -1,30 +1,31 @@
-div {
+div#title-card-edit {
   height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  line-height: 30px;
 
   color: #fff;
 }
 
-input {
+div#title-card-edit input {
   border: 0;
   background: #000;
   color: #fff;
-  font-family: "ArialNarrow", Arial, sans-serif;
+  font-family: Arial, sans-serif;
   text-align: center;
 }
 
-h2 {
+div#title-card-edit h2 {
   margin-top: 20px;
   font-size: 40px;
   letter-spacing: -2px;
   font-weight: lighter;
 }
 
-#day {
+div#title-card-edit #day {
   font-size: 90px;
   letter-spacing: -5px;
   text-transform: capitalize;
@@ -33,7 +34,7 @@ h2 {
   width: 100%;
 }
 
-#hours {
+div#title-card-edit #hours {
   font-size: 40px;
   letter-spacing: -2px;
   text-transform: capitalize;
@@ -41,24 +42,24 @@ h2 {
   width: 100%;
 }
 
-label {
+div#title-card-edit label {
   margin-top: 20px;
   color: #ccc;
 }
 
-#url {
+div#title-card-edit #url {
   margin-top: 5px;
   border: 1px solid #eee;
   border-radius: 5px;
 }
 
-#share {
+div#title-card-edit #share {
   text-align: center;
   font-weight: bold;
   color: #fff;
 }
 
-#play {
+div#title-card-edit #play {
   text-decoration: none;
   margin-top: 30px;
   border: 1px solid #fff;
@@ -71,7 +72,7 @@ label {
   transition: background 0.2s;
 }
 
-#play:hover {
+div#title-card-edit #play:hover {
   background: #fff;
   color: #000;
 }

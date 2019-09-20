@@ -25,7 +25,7 @@ export default function Main() {
   }, [day, hours, link]);
 
   return (
-    <div>
+    <div id="title-card-edit">
 
       <p>The Final Day card title generator</p>
       <p>Edit the <strong>day</strong> and <strong>hours</strong> remaining</p>

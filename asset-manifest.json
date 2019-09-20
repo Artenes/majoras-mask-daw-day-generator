@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/majoras-mask-daw-day-generator/static/css/main.7fa268d5.chunk.css",
+    "main.css": "/majoras-mask-daw-day-generator/static/css/main.f9e99833.chunk.css",
     "main.js": "/majoras-mask-daw-day-generator/static/js/main.01d7cf13.chunk.js",
     "main.js.map": "/majoras-mask-daw-day-generator/static/js/main.01d7cf13.chunk.js.map",
     "runtime-main.js": "/majoras-mask-daw-day-generator/static/js/runtime-main.b18fa126.js",
@@ -8,8 +8,8 @@
     "static/js/2.68783f57.chunk.js": "/majoras-mask-daw-day-generator/static/js/2.68783f57.chunk.js",
     "static/js/2.68783f57.chunk.js.map": "/majoras-mask-daw-day-generator/static/js/2.68783f57.chunk.js.map",
     "index.html": "/majoras-mask-daw-day-generator/index.html",
-    "precache-manifest.4ac8f7bf3d56f2f00ea2d1a684509af9.js": "/majoras-mask-daw-day-generator/precache-manifest.4ac8f7bf3d56f2f00ea2d1a684509af9.js",
+    "precache-manifest.4dcc0ba0a8ad42e61a1ea2dfeb46066d.js": "/majoras-mask-daw-day-generator/precache-manifest.4dcc0ba0a8ad42e61a1ea2dfeb46066d.js",
     "service-worker.js": "/majoras-mask-daw-day-generator/service-worker.js",
-    "static/css/main.7fa268d5.chunk.css.map": "/majoras-mask-daw-day-generator/static/css/main.7fa268d5.chunk.css.map"
+    "static/css/main.f9e99833.chunk.css.map": "/majoras-mask-daw-day-generator/static/css/main.f9e99833.chunk.css.map"
   }
 }

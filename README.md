@@ -4,6 +4,8 @@
 
 When things are tight, nothing better than reminding our friends that the time is running out. At work, at school or at a hackaton, send this every morning to set that mood right out of the bat.
 
+**Attention**: Activate your tab sound to hear the sound effect.
+
 [Access it here.](https://artenesbok.com/majoras-mask-daw-day-generator)
 
 # Acknowledgements

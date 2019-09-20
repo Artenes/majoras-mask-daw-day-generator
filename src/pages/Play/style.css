@@ -30,4 +30,19 @@ div#title-card h3 {
   text-transform: capitalize;
   font-weight: lighter;
   margin-top: 30px;
+  opacity: 0;
+  transition: opacity 2s;
+}
+
+div#title-card .appear {
+  opacity: 1;
+}
+
+@keyframes fadein {
+  from {
+      opacity:0;
+  }
+  to {
+      opacity:1;
+  }
 }

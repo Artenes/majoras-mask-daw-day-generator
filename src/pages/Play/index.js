@@ -16,10 +16,10 @@ export default function Play({ location, history }) {
         let target = params.get('target');
         if (target) {
 
-          if (!target.startsWith('https://') || !target.startsWith('http://')) {
+          if (!target.startsWith('https://') && !target.startsWith('http://')) {
             target = `https://${target}`;
           }
-
+          
           window.location = target;
         }
       }, 5000);

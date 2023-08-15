@@ -9,12 +9,53 @@ export default function Main() {
   const [link, setLink] = useState('');
   const [url, setUrl] = useState('');
   const [query, setQuery] = useState('');
+  
 
   useEffect(() => {
     
     const title = encodeURI(day);
     const subtitle = encodeURI(hours);
     const target = encodeURI(link);
+
+    document.getElementById("dropdown").addEventListener("change", function() {
+      var selectedColor = this.value;
+      
+      if (selectedColor === "black") {
+        document.getElementById("title-card-edit").style.color = "white";
+        document.getElementById("title-card-edit").style.background = "black";
+        document.getElementById("hours").style.background = "black";
+        document.getElementById("hours").style.color = "white";
+        document.getElementById("day").style.background = "black";
+        document.getElementById("day").style.color = "white";
+        document.getElementById("play").style.background = "black";
+        document.getElementById("play").style.color = "white";
+        document.getElementById("play").style.borderColor = "white";
+        document.getElementById("play").style.borderColor = "white";
+        document.getElementById("share").style.color = "white";
+        var labels = document.querySelectorAll("label");
+
+        for (var i = 0; i < labels.length; i++) {
+          labels[i].style.color = "#ccc"
+        }
+        
+      } else if (selectedColor === "white") {
+        document.getElementById("title-card-edit").style.color = "black";
+        document.getElementById("title-card-edit").style.background = "white";
+        document.getElementById("hours").style.background = "white";
+        document.getElementById("hours").style.color = "black";
+        document.getElementById("day").style.background = "white";
+        document.getElementById("day").style.color = "black";
+        document.getElementById("play").style.background = "white";
+        document.getElementById("play").style.color = "black";
+        document.getElementById("play").style.borderColor = "black";
+        document.getElementById("share").style.color = "black";
+        var labels = document.querySelectorAll("label");
+
+        for (var i = 0; i < labels.length; i++) {
+          labels[i].style.color = "#555"
+        }
+      } 
+    });
 
     const query = `?title=${title}&subtitle=${subtitle}&target=${target}`;
     setQuery(query);
@@ -43,7 +84,14 @@ export default function Main() {
       <a id="share" href={url}>{url}</a>
 
       <Link id="play" to={{ pathname: '/play', search: query }}>Play</Link>
+      <div id = "New Day Select">
+      <select id="dropdown">
+      <option value="black">Black Background, white text</option>
+      <option value="white">White Background, black text</option>
 
+      </select>
     </div>
+    </div>
+    
   );
 }

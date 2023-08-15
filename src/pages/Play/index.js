@@ -11,6 +11,7 @@ export default function Play({ location, history }) {
   useEffect(() => {
     if (isAnimating) {
       document.getElementById('sound').play();
+      
       setTimeout(() => { setIsShowingHours('appear'); }, 2000);
       setTimeout(() => { 
         let target = params.get('target');

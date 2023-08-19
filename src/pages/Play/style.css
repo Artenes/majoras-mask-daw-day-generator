@@ -5,7 +5,7 @@ div#title-card {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
+  background: black;
   color: #fff;
 }
 

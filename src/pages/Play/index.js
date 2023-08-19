@@ -9,8 +9,15 @@ export default function Play({ location, history }) {
   setTimeout(() => { setIsAnimating(true); }, 2000);
 
   useEffect(() => {
+    console.log(params.get('color'))
+    if (params.get('color') === 'white') {
+      document.getElementById('title-card').style.background = 'white';
+      document.getElementById('title-card').style.color = 'black';
+     } 
+     
     if (isAnimating) {
       document.getElementById('sound').play();
+      
       setTimeout(() => { setIsShowingHours('appear'); }, 2000);
       setTimeout(() => { 
         let target = params.get('target');
@@ -33,7 +40,7 @@ export default function Play({ location, history }) {
       <>
         <h2>Dawn of</h2>
         <h1>{params.get('title')}</h1>
-        <h3 className={isShowingHours}>-{params.get('subtitle')}-</h3>
+        <h3 className={isShowingHours}>{params.get('subtitle')}</h3>
       </>
       )}
 
